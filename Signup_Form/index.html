@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <center><h1>Sign Up Form</h1></center>
+    <form class = "form">
+        <div class = "wrapper">
+            <label for="">Educational Qualifications</label>    
+            <input type="text" list="qualifications">
+            <datalist id = "qualifications">
+                <option value="Up to Primary"></option>
+                <option value="Secondary"></option>
+                <option value="Higher Secondary"></option>
+                <option value="Graduate"></option>
+                <option value="Post Graduate"></option>
+            </datalist>
+        </div>
+        <br>
+        <div class = "wrapper">
+            <label for="">Mobile Number</label>
+            <input type="text" id = "phone">
+        </div>
+        <br>
+        <div class = "wrapper">
+            <label for="">Age</label>
+            <input type="text" id = "age"> 
+        </div>
+        <br>
+        <div class = "wrapper">
+            <label for="">Gender</label>
+            <input type="text" list = "genders">
+            <datalist id = "genders">
+                <option value="Male"></option>
+                <option value="Female"></option>
+                <option value="Non Binary"></option>
+            </datalist>
+        </div>
+        <br>
+        <div class = "wrapper">
+            <label for="">Email</label>
+            <input type="text" id = "email">
+        </div>
+        <br>
+        <div class = "wrapper">
+            <label for="">Password</label>    
+            <input type="password" id = "pass-1">
+        </div>
+        <br>
+        <div class = "wrapper">
+            <label for="">Confirm Password</label>
+            <input type="password" id = "pass-2">
+        </div>
+        <br>
+        <div class = "wrapper">
+            <label for="">Name</label>
+            <input type="text" id = "name">
+        </div>
+        <br>
+        <div class = "wrapper">
+            <label for="">City</label>
+            <input type="text" id = "city">
+        </div>   
+        <input type="submit"  class = "submit" onclick="master_check()">
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit{
+   align-self: center;
+   margin-top: 6rem;
+}
+
+label{
+    width: 30%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
