@@ -1,4 +1,30 @@
-#fancy-table{
-    border-style: dotted;
-    
+#fancy-table th{
+    background-color: #009879;
+    color: #ffffff;
+    padding: 3rem;
 }
+
+#fancy-table th td{
+    padding: 12px 15px;
+}
+
+
+#fancy-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+
+#fancy-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+#fancy-table td{
+    text-align: center;
+}
+
+#fancy-table{
+    font-family: sans-serif;
+}
+
