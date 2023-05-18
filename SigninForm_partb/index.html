@@ -10,9 +10,15 @@
 <body>
     <form onsubmit="event.preventDefault()">
         <label for="">Email</label>
-        <input type="text" id = "email">
+        <input type="text" id = "email" oninput="reg_check_email()">
+        <div id = "validation-email">
+
+        </div>
         <label for="">Password</label>    
-        <input type="password" id = "pass-1">
+        <input type="password" id = "pass-1" oninput="reg_check_password()">
+        <div id = "validation-password">
+
+        </div>
         <input type="submit"  class = "submit" onclick="request()">
     </form>
     <div id = "validation">
