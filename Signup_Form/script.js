@@ -9,7 +9,7 @@ function reg_check_email() {
        flag = 1;
     }
     else{
-       validation.textContent = "Email is invalid. It should follow the format: abc@xyz.com or abc_def@qwe.abc.ab.ab"
+       validation.textContent = "Email is invalid. It should follow the format: abc@xyz.com"
        flag = 0;
     }
 }
