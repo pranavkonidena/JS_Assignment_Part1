@@ -25,7 +25,7 @@
         <br>
         <div class = "wrapper">
             <label for="">Mobile Number</label>
-            <input type="text" id = "phone" placeholder="  Enter your mobile number">
+            <input type="text" id = "phone" placeholder="  Enter your mobile number" oninput="reg_check_phoneNumber() ">
             
         </div>
         <div id = "validation-mobilenumber" class = "validation">
@@ -34,7 +34,7 @@
         <br>
         <div class = "wrapper">
             <label for="">Age</label>
-            <input type="text" id = "age" placeholder="  Enter your age"> 
+            <input type="text" id = "age" placeholder="  Enter your age" oninput="reg_check_age ()"> 
             
         </div>
         <div id = "validation-age" class = "validation">
@@ -53,7 +53,7 @@
         <br>
         <div class = "wrapper">
             <label for="">Email</label>
-            <input type="text" id = "email" placeholder="   Enter your email">
+            <input type="text" id = "email" placeholder="   Enter your email" oninput="reg_check_email()">
             
         </div>
         <div id = "validation-email" class = "validation">
@@ -62,7 +62,7 @@
         <br>
         <div class = "wrapper">
             <label for="">Password</label>    
-            <input type="password" id = "pass-1" placeholder="   Enter your password">
+            <input type="password" id = "pass-1" placeholder="   Enter your password" oninput="check_Passwd()">
             
         </div>
         <div id = "validation-password" class = "validation">
@@ -71,7 +71,7 @@
         <br>
         <div class = "wrapper">
             <label for="">Confirm Password</label>
-            <input type="password" id = "pass-2" placeholder="   Confirm Password">
+            <input type="password" id = "pass-2" placeholder="   Confirm Password" oninput="check_Passwd()">
             
         </div>
         <div id = "validation-confirmpass" class = "validation">
@@ -80,7 +80,7 @@
         <br>
         <div class = "wrapper">
             <label for="">Name</label>
-            <input type="text" id = "name" placeholder="   Enter your name">
+            <input type="text" id = "name" placeholder="   Enter your name" oninput="check_name()">
             
         </div>
         <div id = "validation-name" class = "validation">
@@ -89,7 +89,7 @@
         <br>
         <div class = "wrapper">
             <label for="">City</label>
-            <input type="text" id = "city" placeholder="   Enter your city">
+            <input type="text" id = "city" placeholder="   Enter your city" oninput="check_city()">
             
         </div>   
         <div id = "validation-city" class = "validation">
